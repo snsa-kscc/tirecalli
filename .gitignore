@@ -2,5 +2,6 @@
 **/.DS_Store
 # Local Netlify folder
 .netlify
+.astro
 node_modules
 pnpm-lock.yaml
