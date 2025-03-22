@@ -1,0 +1,80 @@
+---
+import Head from "../components/Head.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html>
+  <Head title="Tire Calligraphy - Conversation with Iva Matošević" url="https://tirecalli.com/iva" description="A conversation with Iva Matošević." />
+  <body>
+    <Header />
+    <main class="conversation">
+      <section class="feature">
+        <picture class="inherit">
+          <source srcset="/img/conversation/iva-dancer-detail-2.webp" media="(max-width: 750px)" />
+          <img src="/img/conversation/iva-dance-location.webp" alt="tirecalli-picture" />
+        </picture>
+        <div class="feature__description">
+          <h4 class="orange">Iva Matošević x TC</h4>
+          <h3 class="inline">Matija for TC in conversation with Iva Matošević</h3>
+        </div>
+      </section>
+      <article>
+        <p class="article__intro">Iva is a movement artist from Croatia, currently living in Cyprus.</p>
+        <p>
+          The island’s multicultural environment, with its complex history and ongoing divisions, has deeply influenced her approach to both art and life,
+          making it more sensitive and expansive. Her work, shaped by this unique backdrop, is strongly influenced by a strong floorwork practice and the
+          expressive elements of physical theater.
+        </p>
+        <h4 class="article__greet">Hello Iva!</h4>
+        <div class="article-images">
+          <img src="/img/conversation/iva-dancer-detail-2.webp" alt="tirecalli-picture" />
+          <img src="/img/conversation/iva-dance-location.webp" alt="tirecalli-picture" />
+          <img src="/img/conversation/iva-dancer-detail-1.webp" alt="tirecalli-picture" />
+        </div>
+        <p class="mt-lg">
+          In addition to her experience in live performances and site-specific artworks, Iva has been actively involved in a variety of experimental projects,
+          including music and dance short films.
+        </p>
+        <p>
+          She has also played an active role in organization of art festivals, helping to shape and elevate the cultural landscape. Beyond her artistic
+          contributions, Iva has ventured into the world of modeling, bringing her unique movement and creative energy to a new realm of expression.
+        </p>
+        <p>Her diverse talents and collaborative spirit make her a dynamic force in the arts scene.</p>
+        <img src="/img/conversation/iva-buto-profile-3.webp" alt="tirecalli-picture" />
+      </article>
+    </main>
+    <Footer />
+    <script src="../js/app.js"></script>
+    <script>
+      import { gsap, ScrollTrigger } from "gsap/all";
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.from(".feature__description", { opacity: 0, duration: 1.5, ease: "power2.in", y: 50 });
+      gsap.from(".feature img", { opacity: 0, duration: 1, y: -50 });
+      gsap.utils.toArray("article img").forEach((panel, i) => {
+        gsap.from(panel, {
+          scrollTrigger: {
+            trigger: panel,
+            start: "top 75%",
+          },
+          y: 50,
+          opacity: 0,
+          duration: 1,
+        });
+      });
+    </script>
+    <style>
+      .inherit {
+        height: inherit;
+      }
+      .orange {
+        color: orange;
+      }
+      .inline {
+        display: inline-block;
+        padding: 0.4rem;
+        background: var(--base-color);
+      }
+    </style>
+  </body>
+</html>
