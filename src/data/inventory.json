@@ -1,61 +1,55 @@
 [
   {
     "id": 100,
-    "price": 50,
+    "price": 30,
     "name": "Black TC Tote bag",
     "imgUrl": "/img/Black-TC-Tote-bag/girl-in-grey-tshirt-with-tote-bag-and-laptop.webp"
   },
   {
     "id": 204,
-    "price": 250,
+    "price": 150,
     "name": "Hybrid Jacket - XL",
     "imgUrl": "/img/Hybrid-Jacket/girl-in-hybrid-jacket-3.webp"
   },
   {
-    "id": 303,
-    "price": 180,
-    "name": "Basic Denim Jacket - L",
-    "imgUrl": "/img/Basic-Denim-Jacket/man-in-basic-denim-jacket.webp"
-  },
-  {
     "id": 304,
-    "price": 180,
+    "price": 108,
     "name": "Basic Denim Jacket - XL",
     "imgUrl": "/img/Basic-Denim-Jacket/man-in-basic-denim-jacket.webp"
   },
   {
     "id": 402,
-    "price": 80,
+    "price": 48,
     "name": "Black Quilted Jacket - M",
     "imgUrl": "/img/Black-Quilted-Jacket/man-in-black-quilted-jacket-front.webp"
   },
   {
     "id": 404,
-    "price": 80,
+    "price": 48,
     "name": "Black Quilted Jacket - XL",
     "imgUrl": "/img/Black-Quilted-Jacket/man-in-black-quilted-jacket-front.webp"
   },
   {
     "id": 601,
-    "price": 70,
+    "price": 42,
     "name": "Sand Brown Licitar T-Shirt - S",
     "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
   },
   {
     "id": 602,
-    "price": 70,
+    "price": 42,
     "name": "Sand Brown Licitar T-Shirt - M",
     "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
   },
   {
     "id": 603,
-    "price": 70,
+    "price": 42,
     "name": "Sand Brown Licitar T-Shirt - L",
     "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
   },
   {
     "id": 604,
-    "price": 70,
+    "price": 42,
     "name": "Sand Brown Licitar T-Shirt - XL",
     "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
   }

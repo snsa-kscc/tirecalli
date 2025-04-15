@@ -4,10 +4,7 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { Buttons } from "../../components/Buttons";
 
-const buttons = [
-  { id: 303, size: "L" },
-  { id: 304, size: "XL" },
-];
+const buttons = [{ id: 304, size: "XL" }];
 ---
 
 <html>
@@ -55,7 +52,7 @@ const buttons = [
             <h2>199144</h2>
           </div>
           <div class="product__item product__item--price">
-            <p>Price: 180€</p>
+            <p>Price: <s>180€</s> 108€</p>
           </div>
           <div class="product__item product__item--size-select">
             <p>Select your size and add to bag</p>
