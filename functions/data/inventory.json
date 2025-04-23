@@ -2,7 +2,7 @@
   [
     100,
     {
-      "price": 30,
+      "price": 50,
       "name": "Black TC Tote bag"
     }
   ],
@@ -16,21 +16,21 @@
   [
     304,
     {
-      "price": 108,
+      "price": 180,
       "name": "Basic Denim Jacket - XL"
     }
   ],
   [
     402,
     {
-      "price": 48,
+      "price": 80,
       "name": "Black Quilted Jacket - M"
     }
   ],
   [
     404,
     {
-      "price": 48,
+      "price": 80,
       "name": "Black Quilted Jacket - XL"
     }
   ],

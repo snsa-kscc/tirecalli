@@ -105,7 +105,7 @@ export function ShoppingCart() {
     return total + (item?.price || 0) * cartItem.quantity;
   }, 0);
 
-  const deliveryAndHandling = 0;
+  const deliveryAndHandling = 10;
 
   const discountPercentage = discount ? (appliedDiscountCode === "T14M4S5KOFC" || appliedDiscountCode === "TCJUICE30" ? 0.3 : 0.1) : 0;
   const discountAmount = discountPercentage * subtotal;

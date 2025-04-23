@@ -1,7 +1,7 @@
 [
   {
     "id": 100,
-    "price": 30,
+    "price": 50,
     "name": "Black TC Tote bag",
     "imgUrl": "/img/Black-TC-Tote-bag/girl-in-grey-tshirt-with-tote-bag-and-laptop.webp"
   },
@@ -13,19 +13,19 @@
   },
   {
     "id": 304,
-    "price": 108,
+    "price": 180,
     "name": "Basic Denim Jacket - XL",
     "imgUrl": "/img/Basic-Denim-Jacket/man-in-basic-denim-jacket.webp"
   },
   {
     "id": 402,
-    "price": 48,
+    "price": 80,
     "name": "Black Quilted Jacket - M",
     "imgUrl": "/img/Black-Quilted-Jacket/man-in-black-quilted-jacket-front.webp"
   },
   {
     "id": 404,
-    "price": 48,
+    "price": 80,
     "name": "Black Quilted Jacket - XL",
     "imgUrl": "/img/Black-Quilted-Jacket/man-in-black-quilted-jacket-front.webp"
   },
