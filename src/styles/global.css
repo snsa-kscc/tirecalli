@@ -777,6 +777,8 @@ footer nav {
   position: relative;
   text-align: center;
   color: white;
+  min-height: 60vh;
+  background: white;
 }
 
 .hero-collection h6 {
@@ -786,7 +788,7 @@ footer nav {
 .hero-collection img {
   min-height: 60vh;
   max-height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hero-collection > div {
