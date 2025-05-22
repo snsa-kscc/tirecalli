@@ -3,12 +3,6 @@ import Head from "../../components/Head.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { Buttons } from "../../components/Buttons";
-
-const buttons = [
-  { id: 602, size: "M" },
-  { id: 603, size: "L" },
-  { id: 604, size: "XL" },
-];
 ---
 
 <html>
@@ -60,13 +54,10 @@ const buttons = [
             <h2>SAND BROWN LICITAR T-SHIRT</h2>
           </div>
           <div class="product__item product__item--price">
-            <p>Price: <s>70€</s> 42€</p>
+            <p>Price: 70€</p>
           </div>
           <div class="product__item product__item--size-select">
-            <p>Select your size and add to bag</p>
-          </div>
-          <div class="product__item product__item--sizes">
-            <Buttons client:load items={buttons} />
+            <p>SOLD OUT</p>
           </div>
           <div class="product__item product__item--description">
             <p class="mt">A toned-down front embroidery detail, for a calm, premium look. Coming to real life only on the second or third glance.</p>

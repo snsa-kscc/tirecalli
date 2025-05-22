@@ -6,12 +6,6 @@
     "imgUrl": "/img/Black-TC-Tote-bag/girl-in-grey-tshirt-with-tote-bag-and-laptop.webp"
   },
   {
-    "id": 204,
-    "price": 150,
-    "name": "Hybrid Jacket - XL",
-    "imgUrl": "/img/Hybrid-Jacket/girl-in-hybrid-jacket-3.webp"
-  },
-  {
     "id": 304,
     "price": 180,
     "name": "Basic Denim Jacket - XL",
@@ -28,23 +22,5 @@
     "price": 80,
     "name": "Black Quilted Jacket - XL",
     "imgUrl": "/img/Black-Quilted-Jacket/man-in-black-quilted-jacket-front.webp"
-  },
-  {
-    "id": 602,
-    "price": 42,
-    "name": "Sand Brown Licitar T-Shirt - M",
-    "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
-  },
-  {
-    "id": 603,
-    "price": 42,
-    "name": "Sand Brown Licitar T-Shirt - L",
-    "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
-  },
-  {
-    "id": 604,
-    "price": 42,
-    "name": "Sand Brown Licitar T-Shirt - XL",
-    "imgUrl": "/img/Sand-Brown-Licitar-T-Shirt/girl-in-sand-brown-licitar-t-shirt-back.webp"
   }
 ]

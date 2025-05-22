@@ -7,13 +7,6 @@
     }
   ],
   [
-    204,
-    {
-      "price": 150,
-      "name": "Hybrid Jacket - XL"
-    }
-  ],
-  [
     304,
     {
       "price": 180,
@@ -32,27 +25,6 @@
     {
       "price": 80,
       "name": "Black Quilted Jacket - XL"
-    }
-  ],
-  [
-    602,
-    {
-      "price": 42,
-      "name": "Sand Brown Licitar T-Shirt - M"
-    }
-  ],
-  [
-    603,
-    {
-      "price": 42,
-      "name": "Sand Brown Licitar T-Shirt - L"
-    }
-  ],
-  [
-    604,
-    {
-      "price": 42,
-      "name": "Sand Brown Licitar T-Shirt - XL"
     }
   ]
 ]
