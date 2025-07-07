@@ -9,8 +9,9 @@ let isInside = false;
 
 const bgPositions = {
   c1: "0 0",
-  c2: "0 50%",
-  c3: "0 100%",
+  c2: "0 33.33%",
+  c3: "0 66.66%",
+  c4: "0 100%",
 };
 
 function handlePreview(e) {
@@ -47,7 +48,16 @@ function movePreviewImg(campaign) {
 
 function isMouseInsideCointainer(e) {
   const campaignsRect = campaigns.getBoundingClientRect();
-  return e.pageX >= campaignsRect.left && e.pageX <= campaignsRect.right && e.pageY >= campaignsRect.top && e.pageY <= campaignsRect.bottom;
+  const scrollX = window.scrollX || window.pageXOffset;
+  const scrollY = window.scrollY || window.pageYOffset;
+  
+  // Convert clientRect coordinates to page coordinates
+  const left = campaignsRect.left + scrollX;
+  const right = campaignsRect.right + scrollX;
+  const top = campaignsRect.top + scrollY;
+  const bottom = campaignsRect.bottom + scrollY;
+  
+  return e.pageX >= left && e.pageX <= right && e.pageY >= top && e.pageY <= bottom;
 }
 
 window.addEventListener("mousemove", handlePreview);

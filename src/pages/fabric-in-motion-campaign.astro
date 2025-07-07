@@ -1,0 +1,90 @@
+---
+import Head from "../components/Head.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/fabric-in-motion.css";
+---
+
+<html>
+  <Head
+    title="Tire Calligraphy - Fabric in Motion campaign"
+    url="https://tirecalli.com/fabric-in-motion-campaign"
+    description="Tire Calligraphy presents Fabric in Motion - A visual, audio and tactile experience. Spring symbolizes a change of energies, out with the old – in with the new."
+  />
+  <body>
+    <Header />
+    <main class="overflow-hidden">
+      <section class="butoh-intro full-width">
+        <img class="butoh-intro__img" src="/img/campaign/buto-dance/denim-jacket-scene.webp" alt="Butoh dance denim jacket scene" />
+      </section>
+      <section class="butoh-title">
+        <h1>Tire Calligraphy presents Fabric in Motion</h1>
+      </section>
+      <section class="video video--flex">
+        <div>
+          <video class="vid--butoh-dance" src="https://res.cloudinary.com/snsa-kscc/video/upload/buto-dance.mp4" controls playsinline autoplay muted loop
+          ></video>
+        </div>
+        <div class="text--white">
+          <h6 class="centered">Butoh Dance Performance</h6>
+        </div>
+      </section>
+      <section class="butoh-concept" id="concept">
+        <div class="butoh-concept__wrapper">
+          <div class="butoh-concept__copy">
+            <h2>The Concept</h2>
+            <p class="text--lg mt-xl">A visual, audio and tactile experience.</p>
+            <p class="text--lg mt">Spring symbolizes a change of energies, out with the old – in with the new...</p>
+          </div>
+          <div class="butoh-concept__img">
+            <img src="/img/conversation/iva-buto-profile-1.webp" alt="Butoh dancer profile" />
+          </div>
+        </div>
+      </section>
+      <section class="butoh-nature">
+        <div class="butoh-nature__wrapper">
+          <div class="butoh-nature__img">
+            <img src="/img/conversation/iva-dance-location.webp" alt="Dance location" />
+          </div>
+          <div class="butoh-nature__copy mt-xl">
+            <p class="text--lg">
+              "The dance is rooted in a deep connection with the natural world. Nature is a symbol of a shifting existence, and the transformation and
+              transience of nature and the cycle of the seasons are often incorporated into the "patterns" of butoh dance."
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="butoh-why">
+        <div class="butoh-why__pic butoh-why__pic--left">
+          <img src="/img/conversation/iva-dancer-detail-1.webp" alt="Dancer detail" />
+        </div>
+        <div class="butoh-why__copy text--lg">
+          <h2>Why Butoh?</h2>
+          <ul class="butoh-why__list">
+            <li>• butoh is energetic</li>
+            <li>• butoh is crude</li>
+            <li>• butoh is raw</li>
+            <li>• … like the Denim</li>
+            <li>• butoh is expressional</li>
+            <li>• butoh is emotional</li>
+            <li>• butoh sometimes flows like the light</li>
+            <li>• …like the "white", that is fragility</li>
+            <li>• …like Cotton, (which is The Source)</li>
+          </ul>
+        </div>
+        <div class="butoh-why__pic butoh-why__pic--right">
+          <img src="/img/conversation/iva-dancer-detail-2.webp" alt="Dancer detail" />
+        </div>
+      </section>
+      <section class="butoh-gallery">
+        <div class="butoh-gallery__group butoh--grid">
+          <img src="/img/conversation/iva-buto-profile-2.webp" alt="Butoh dancer profile" />
+          <img src="/img/conversation/iva-buto-profile-4.webp" alt="Butoh dancer profile" />
+        </div>
+      </section>
+    </main>
+    <Footer />
+    <script src="../js/app.js"></script>
+    <script src="../js/app-fabric-in-motion.js"></script>
+  </body>
+</html>

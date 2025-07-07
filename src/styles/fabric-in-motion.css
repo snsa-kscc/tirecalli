@@ -1,0 +1,268 @@
+/* Fabric in Motion Campaign Styles */
+
+/* Intro Section */
+.butoh-intro {
+  position: relative;
+  overflow: hidden;
+}
+
+.full-width {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.butoh-intro__img {
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Title Section */
+.butoh-title {
+  min-height: 65vh;
+  display: grid;
+  place-content: center;
+  background: var(--base-color);
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.butoh-title h1 {
+  color: white;
+  font-size: clamp(3.5rem, 5vw, 7rem);
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+/* Video Section */
+.video--flex {
+  padding: clamp(4em, 8vw, 10em) 0;
+  background-color: var(--base-color);
+}
+
+.vid--butoh-dance {
+  width: 720px;
+  height: 1280px;
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+.text--white {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Concept Section */
+.butoh-concept {
+  padding: clamp(6em, 10vw, 12em) clamp(2em, 5vw, 8em);
+}
+
+.butoh-concept__wrapper {
+  max-width: 160rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.butoh-concept__copy {
+  flex: 1 1 20rem;
+}
+
+.butoh-concept__img {
+  flex: 1 1 20rem;
+}
+
+.butoh-concept__img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+.butoh-concept__img img:hover {
+  transform: scale(1.02);
+}
+
+/* Nature Section */
+.butoh-nature {
+  padding: clamp(6em, 10vw, 12em) clamp(2em, 5vw, 8em);
+  background-color: var(--base-color);
+  color: white;
+}
+
+.butoh-nature__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+.butoh-nature__img {
+  flex: 1 1 40rem;
+}
+
+.butoh-nature__img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+.butoh-nature__img img:hover {
+  transform: scale(1.02);
+}
+
+.butoh-nature__copy {
+  flex: 1 1 40rem;
+  font-size: clamp(1.8rem, 2vw, 2.4rem);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+/* Why Section */
+.butoh-why {
+  padding: clamp(6em, 10vw, 12em) clamp(2em, 5vw, 8em);
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2em;
+}
+
+.butoh-why__copy {
+  grid-column: 2;
+}
+
+.butoh-why__list {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.butoh-why__list li {
+  margin-bottom: 1em;
+}
+
+.butoh-why__pic {
+  max-width: 100%;
+}
+
+.butoh-why__pic img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+.butoh-why__pic img:hover {
+  transform: scale(1.02);
+}
+
+.butoh-why__pic--left {
+  grid-column: 1;
+}
+
+.butoh-why__pic--right {
+  grid-column: 3;
+}
+
+/* Gallery Section */
+.butoh-gallery {
+  padding: clamp(6em, 10vw, 12em) clamp(2em, 5vw, 8em);
+  background-color: var(--base-color);
+}
+
+.butoh-gallery__group {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+.butoh--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.butoh-gallery img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+.butoh-gallery img:hover {
+  transform: scale(1.02);
+}
+
+.butoh-gallery__group img:nth-child(2) {
+  grid-column: 3;
+}
+
+/* Utility Classes */
+
+.text--lg {
+  font-size: clamp(1.8rem, 2vw, 2.4rem);
+  line-height: 1.5;
+}
+
+.mt {
+  margin-top: 1em;
+}
+
+.mt-xl {
+  margin-top: 2em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .butoh-concept__wrapper,
+  .butoh-nature__wrapper {
+    flex-direction: column;
+  }
+
+  .butoh--grid {
+    grid-template-columns: 1fr;
+  }
+
+  .butoh-gallery__group img:nth-child(2) {
+    grid-column: 1;
+  }
+
+  .butoh-why {
+    grid-template-columns: 1fr;
+  }
+
+  .butoh-why__pic--left,
+  .butoh-why__pic--right,
+  .butoh-why__copy {
+    grid-column: 1;
+  }
+}
+
+/* Animation for scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Overflow utility */
+.overflow-hidden {
+  overflow: hidden;
+}
