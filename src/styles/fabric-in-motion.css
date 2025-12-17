@@ -142,6 +142,7 @@
 
 .butoh-why__copy {
   grid-column: 2;
+  text-align: center;
 }
 
 .butoh-why__list {
