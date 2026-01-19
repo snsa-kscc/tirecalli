@@ -14,103 +14,295 @@ import "../styles/fabric-in-motion.css";
   <body>
     <Header />
     <main class="overflow-hidden">
-      <section class="butoh-intro full-width">
+      <section class="fim-hero">
         <img
-          class="butoh-intro__img"
+          class="fim-hero__img"
           src="/img/campaign/buto-dance/denim-jacket-scene.webp"
           alt="Butoh dance denim jacket scene"
         />
-      </section>
-      <section class="butoh-title">
-        <h1>Tire Calligraphy presents Fabric in Motion</h1>
-      </section>
-      <section class="video video--flex">
-        <div>
-          <video
-            class="vid--butoh-dance"
-            src="https://res.cloudinary.com/snsa-kscc/video/upload/buto-dance.mp4"
-            controls
-            playsinline
-            autoplay
-            muted
-            loop></video>
-        </div>
-        <div class="text--white">
-          <h6 class="centered">Butoh Dance Performance</h6>
-        </div>
-      </section>
-      <section class="butoh-concept" id="concept">
-        <div class="butoh-concept__wrapper">
-          <div class="butoh-concept__copy">
-            <h2>The Concept</h2>
-            <p class="text--lg mt-xl">
-              A visual, audio and tactile experience.
-            </p>
-            <p class="text--lg mt">
-              Spring symbolizes a change of energies, out with the old – in with
-              the new...
-            </p>
+        <h1 class="fim-hero__title">
+          <div class="fim-hero__span-container-1">
+            <span>Fabric</span>
           </div>
-          <div class="butoh-concept__img">
-            <img
-              src="/img/conversation/iva-buto-profile-2.webp"
-              alt="Butoh dancer profile"
-            />
+          <div class="fim-hero__span-container-2">
+            <span>in</span>
           </div>
-        </div>
+          <div class="fim-hero__span-container-3">
+            <span>Motion</span>
+          </div>
+        </h1>
       </section>
-      <section class="butoh-nature">
-        <div class="butoh-nature__wrapper">
-          <div class="butoh-nature__img">
-            <img
-              src="/img/conversation/iva-dance-location.webp"
-              alt="Dance location"
-            />
-          </div>
-          <div class="butoh-nature__copy mt-xl">
-            <p class="text--lg">
+
+      <section class="fim-statement" id="fimStatement">
+        <h2 class="fim-statement__text">
+          A visual, audio and tactile experience.
+        </h2>
+      </section>
+
+      <section class="fim-video">
+        <video
+          class="fim-video__player"
+          src="https://res.cloudinary.com/snsa-kscc/video/upload/buto-dance.mp4"
+          controls
+          playsinline
+          autoplay
+          muted
+          loop></video>
+      </section>
+
+      <section class="fim-heading">
+        <h1>Butoh</h1>
+        <p class="text--lg">
+          Spring symbolizes a change of energies, out with the old – in with the
+          new...
+        </p>
+      </section>
+
+      <section class="fim-nature fim-item">
+        <div class="fim-nature__group-left">
+          <img
+            src="/img/conversation/iva-dance-location.webp"
+            alt="Dance location"
+          />
+          <img
+            src="/img/conversation/iva-buto-profile-2.webp"
+            alt="Butoh dancer profile"
+          />
+        </div>
+        <div class="fim-nature__group-right">
+          <h4>The Dance of Darkness</h4>
+          <div class="fim-nature__copy text--lg">
+            <p>
               "The dance is rooted in a deep connection with the natural world.
               Nature is a symbol of a shifting existence, and the transformation
               and transience of nature and the cycle of the seasons are often
-              incorporated into the "patterns" of butoh dance."
+              incorporated into the 'patterns' of butoh dance."
             </p>
           </div>
         </div>
       </section>
-      <section class="butoh-why">
-        <div class="butoh-why__pic butoh-why__pic--left">
+
+      <section class="fim-why fim-item">
+        <div class="fim-why__group-left">
+          <h4>Why Butoh?</h4>
           <img
             src="/img/conversation/iva-dancer-detail-1.webp"
             alt="Dancer detail"
           />
         </div>
-        <div class="butoh-why__copy text--lg">
-          <h2>Why Butoh?</h2>
-          <ul class="butoh-why__list">
-            <li>Butoh is energetic</li>
-            <li>Butoh is crude</li>
-            <li>Butoh is raw</li>
-            <li>...Like the Denim</li>
-            <li>Butoh is expressional</li>
-            <li>Butoh is emotional</li>
-            <li>Butoh sometimes flows like the light</li>
-            <li>...Like the "white", that is fragility</li>
-            <li>...Like Cotton, (which is The Source)</li>
-          </ul>
-        </div>
-        <div class="butoh-why__pic butoh-why__pic--right">
+        <div class="fim-why__group-right">
+          <div class="fim-why__list">
+            <p>
+              <span class="fim-why__bullet"></span> Butoh is <span class="bold"
+                >energetic</span
+              >
+            </p>
+            <p>
+              <span class="fim-why__bullet"></span> Butoh is <span class="bold"
+                >crude</span
+              >
+            </p>
+            <p>
+              <span class="fim-why__bullet"></span> Butoh is <span class="bold"
+                >raw</span
+              >
+            </p>
+            <p class="fim-why__accent">...Like the Denim</p>
+            <p>
+              <span class="fim-why__bullet"></span> Butoh is <span class="bold"
+                >expressional</span
+              >
+            </p>
+            <p>
+              <span class="fim-why__bullet"></span> Butoh is <span class="bold"
+                >emotional</span
+              >
+            </p>
+            <p>
+              <span class="fim-why__bullet"></span> Butoh sometimes flows like the
+              <span class="bold">light</span>
+            </p>
+            <p class="fim-why__accent">
+              ...Like the "white", that is fragility
+            </p>
+            <p class="fim-why__accent">...Like Cotton, (which is The Source)</p>
+          </div>
           <img
             src="/img/conversation/iva-dancer-detail-2.webp"
             alt="Dancer detail"
           />
         </div>
       </section>
-      <section class="butoh-gallery">
-        <div class="butoh-gallery__group butoh--grid">
+
+      <section class="fim-gallery">
+        <img
+          src="/img/conversation/iva-buto-profile-4.webp"
+          alt="Butoh dancer profile"
+        />
+      </section>
+
+      <section class="fim-heading fim-heading--dark">
+        <h1>Denim</h1>
+      </section>
+
+      <section class="fim-description">
+        <div class="fim-description__content">
+          <div class="fim-description__item">
+            <div class="fim-description__counter">01</div>
+            <div class="fim-description__text">
+              <p>
+                With a vision of neutral, universal items in mind, 199144
+                (premium) items will spread through the seasons not constrained
+                by time, location or fashion trends.
+              </p>
+              <p class="fim-description__highlight">
+                Every item offered is a neutral-gender item.
+              </p>
+            </div>
+          </div>
+          <div class="fim-description__item">
+            <div class="fim-description__counter">02</div>
+            <div class="fim-description__text">
+              <p>
+                Black denim was chosen as key source, signifying the key source
+                that is present in each city, this being concrete and asphalt,
+                dark and sturdy, resisting the elements but also accepting them.
+              </p>
+              <p>
+                Even with all of its lights, the city is a dark place with all
+                the concrete walls and glass of skyscrapers, the streets, the
+                subway lanes.
+              </p>
+            </div>
+          </div>
+          <div class="fim-description__item">
+            <div class="fim-description__counter">03</div>
+            <div class="fim-description__text">
+              <p>
+                The raw black denim in all its roughness will start to adapt to
+                each individual, becoming a unique item in fit and color, both
+                being noticeable, but maybe just at the second or third glance.
+              </p>
+              <p>
+                The offering was presented as a uniform, a Basic Denim Overall
+                Pant and a Basic Denim Jacket – as a layer of the Hybrid Jacket.
+              </p>
+            </div>
+          </div>
+          <div class="fim-description__item">
+            <div class="fim-description__counter">04</div>
+            <div class="fim-description__text">
+              <p>
+                Being neutral in color, fit and minimal in (visible) features,
+                items, each in its own right, are envisioned and created as
+                adaptable to each other and additional garments.
+              </p>
+              <p class="fim-description__highlight">
+                Thus serving each individual when creating their looks, a
+                uniform of a sort.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="fim-description__bg"
+          src="/img/campaign/buto-dance/denim-jacket-scene.webp"
+          alt="Denim jacket"
+        />
+      </section>
+
+      <section class="fim-products fim-item">
+        <div class="fim-products__group-left">
+          <p class="text--xxl">
+            With a utilitarian approach to wardrobe the items are presented as
+            spacey, oversized if you will, a comfortable wear.
+          </p>
+        </div>
+        <div class="fim-products__group-right">
           <img
-            src="/img/conversation/iva-buto-profile-4.webp"
-            alt="Butoh dancer profile"
+            src="/img/Basic-Denim-Overall-Pant/basic-denim-overall-pant-strap-buckle-detail.webp"
+            alt="Basic denim overall pant detail"
           />
+          <img
+            src="/img/Basic-Denim-Jacket/basic-denim-jacket-front-detail.webp"
+            alt="Basic denim jacket detail"
+          />
+          <img
+            src="/img/Hybrid-Jacket/girl-in-hybrid-winter-jacket-front-detail.webp"
+            alt="Hybrid jacket detail"
+          />
+        </div>
+      </section>
+
+      <section class="fim-heading">
+        <h1>199144</h1>
+      </section>
+
+      <section class="fim-crewneck fim-item">
+        <div class="fim-crewneck__group-left">
+          <h4>Reflective Calli Crewneck</h4>
+          <div class="fim-crewneck__copy text--lg">
+            <p>
+              This gender-neutral crew was a first piece in our new 199144
+              collection. Inspired by Japanese culture and its minimalism and a
+              sense of calm.
+            </p>
+            <p>
+              With an ambition to be as plain and minimal as possible, it still
+              provides much needed details revealed only by the second or third
+              look, such as the "199144" white embroidered logo on the chest, or
+              the full "Tire Calligraphy" logo in silver on the back, coming
+              fully to life when "attacked" by a force of light, as it is a 3M
+              reflective element.
+            </p>
+          </div>
+        </div>
+        <div class="fim-crewneck__group-right">
+          <img
+            src="/img/Reflective-Calli-Crewneck/tire-calligraphy-199144-embroidery.webp"
+            alt="199144 embroidery detail"
+          />
+          <img
+            src="/img/Reflective-Calli-Crewneck/white-reflective-crewneck-back-detail.webp"
+            alt="Reflective crewneck back"
+          />
+          <img
+            src="/img/Reflective-Calli-Crewneck/white-reflective-crewneck-back-detail-dark.webp"
+            alt="Reflective detail in dark"
+          />
+        </div>
+      </section>
+
+      <section class="fim-outro">
+        <div class="fim-outro__content">
+          <p class="text--xxl">
+            The black denim pieces juxtaposed with the white on white
+            "maxi-minimal" aesthetics goes perfectly hand in hand with the clean
+            minimal aesthetics.
+          </p>
+          <p class="text--lg mt">
+            In this way juxtaposing the cold and the warmth, that are both
+            visual (cold) and on the other hand tactile (warm), so a full
+            experience indeed was provided to the audience which was fully
+            immersed in the offering of both <a
+              href="https://www.instagram.com/holographik.space/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text--white">The Space</a
+            > and <a
+              href="/crypto-kids-campaign/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text--white">The Collection</a
+            >
+            through an immersive experience that is a butoh-esque performance as a
+            pinnacle of the evening.
+          </p>
+        </div>
+        <div class="fim-outro__cta">
+          <a href="/shop">
+            <h2 class="centered text--white">Explore The Collection</h2>
+          </a>
         </div>
       </section>
     </main>
